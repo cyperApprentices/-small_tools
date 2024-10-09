@@ -1,5 +1,8 @@
 import os
 
+#* NO.1
+#* 在windows环境下，根据文件名从指定文件夹下搜索该文件的路径
+
 def search_file_in_directory(directory, target_file):
     for root, dirs, files in os.walk(directory):
         if target_file in files:

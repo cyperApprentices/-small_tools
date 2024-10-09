@@ -2,6 +2,9 @@ import os
 import shutil
 import pprint
 
+#* NO.2
+#* 在windows环境下，根据文件的后缀，从文件夹中提取对应后缀的文件
+
 def extract_images(source_folder, destination_folder):
     # 确保目标文件夹存在
     os.makedirs(destination_folder, exist_ok=True)
